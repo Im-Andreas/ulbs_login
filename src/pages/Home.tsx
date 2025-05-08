@@ -2,8 +2,8 @@ import React from 'react';
 
 const Home: React.FC = () => (
   <div style={{ padding: '2rem' }}>
-    <h1>Bine ai venit la ULBS!</h1>
-    <p>Aceasta este pagina principală după autentificare.</p>
+    <h1>Home</h1>
+    <p>Placeholder, trebuie s-ajunga aici dupa logarea cu succes</p>
   </div>
 );
 
