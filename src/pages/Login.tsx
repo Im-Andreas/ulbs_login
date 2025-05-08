@@ -8,7 +8,7 @@ const Login: React.FC = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    // TODO: your real auth logic here...
+    // TODO: also auth logic
     navigate('/home');
   };
 
