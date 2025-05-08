@@ -9,8 +9,7 @@ import Login from './pages/Login';
 import Home from './pages/Home';
 
 const App: React.FC = () => {
-  // TODO: replace this with your real auth flag (e.g. from context)
-  const isAuthenticated = false;
+  // TODO: add auth initialization
 
   return (
     <BrowserRouter>
