@@ -1,0 +1,45 @@
+  .login-viewport {
+    width: 100vw;            
+    height: 100vh;
+    border-radius: 2rem;      
+    overflow: hidden;               
+    margin: 2rem auto;        
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    background: #f7f8fc;
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .login-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    text-align: center;
+    width: 320px;
+  }
+  
+  .login-logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .login-button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    opacity: 0.9;
+  }
